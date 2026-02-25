@@ -1,0 +1,105 @@
+body {
+  background: #f3f4f6;
+  font-family: Inter, sans-serif;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.card {
+  width: 420px;
+  padding: 24px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  position: relative;
+}
+
+.card.dark {
+  background: #1e1e1e;
+  color: #fff;
+}
+
+.theme-btn {
+  position: absolute;
+  top: -45px;
+  right: 0;
+  background: #eef2f7;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+.role {
+  color: gray;
+  font-size: 14px;
+}
+
+.bio {
+  margin: 16px 0;
+  line-height: 1.6;
+}
+
+.skill-title {
+  margin-bottom: 8px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.pill {
+  background: #eef2f7;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+}
+
+.card.dark .pill {
+  background: #2c2c2c;
+}
+
+.footer {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.likes {
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.contact {
+  background: #2563eb;
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 10px;
+  border: none;
+}
